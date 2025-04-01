@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(22, 22, 22);
+    font-family: 'Pixelify Sans';
+}
+
+#container {
+    text-align: center;
+    background-color: seagreen;
+    padding: 2rem;
+    border: 12px solid rgb(238, 216, 91);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+label {
+    font-size: 25px;
+}
+
+input {
+    width: 50px;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin: 0 0.3rem;
+}
+
+button {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    background-color: darkred;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(190, 0, 0);
+}
